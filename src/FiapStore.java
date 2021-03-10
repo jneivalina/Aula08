@@ -37,7 +37,7 @@ public static final int TAMANHO_CARRINHO = 5;
 				break;
 				
 			case 2:
-				Funcoes.somarCarrinho(carrinho);
+				System.out.println("R$"+(somarCarrinho(carrinho)));
 				break;
 				
 			case 3:
